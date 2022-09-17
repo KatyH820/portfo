@@ -65,15 +65,11 @@
         <img src="./static/assets/images/work001-01.jpg" class="img-responsive" alt="">
         <div class="card-container">
           <div class="text-center">
-            <h1 class="h2">001 :Secure Python Password Checker</h1>
+            <h1 class="h2">004 :Iris Flower Model</h1>
           </div>
-          <p>This program checks if your password has ever been hacked. This program is coded using the Have I Been Pwned APIv2 with knowledge of K-Anonymity and SHA1 password Hash.</p>
-
-          <p>Hash functions are functions that generate a value of fixed length for each input that it gets. Hash functions are idempotent, which means they will always generate the same output when you put the same input. This program uses SHA1 hash function to avoid direct sending our password to the internet. K anonymity is the idea of allowing somebody to receive information about us yet still don't know who we are. I implement the idea of K anonymity by only give the first five characters of our hash password and letting the API send us a list of all the passwords that have been leaked and have the same first five characters. Our program then checks the passwords API sent one by one to see if our password is in it. This is very secure because we first avoid direct sending our password, and the API will never know our full hash. Thus, it is unable to guess our password.</p>
-          <p>You can run this program to check if your password has ever been hacked by running the following on the terminal:<br>
-            python3 checkmypassword.py password1 password2 ...<br>
-            You can check as many passwords as you want<br>
-            You can download the code of my <a href="https://github.com/KatyH820/passwordchecker">program</a> on my GitHub</p>
+          <p>I created a machine learning model that can be used to predict the type of iris flower. I used data from the sklearn API and trained the model with the KNeighborsClassifier algorithm. This model currently has 97% accuracy, and it can be improved by having access to more data. To make the model stable, I dump the model in a file using joblib so that the model can be loaded and used when needed.</p>
+          <p>
+            You can download the code of my <a href="https://github.com/KatyH820/Iris_flower_ml">program</a> on my GitHub</p>
         </div>
       </div>
 
@@ -83,7 +79,7 @@
       <div class="col-md-8 col-md-offset-2 section-container-spacer">
         <div class="row">
           <div class="col-xs-12 col-md-6">
-            <img src="./static/assets/images/fly-d-mT7lXZPjk7U-unsplash.jpg" class="img-responsive" alt="">
+            <img src="./static/assets/images/sheila-swayze-bAw6uNoZSvE-unsplash.jpg" class="img-responsive" alt="">
           </div>
         </div>
       </div>
